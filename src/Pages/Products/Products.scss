@@ -1,0 +1,58 @@
+
+
+
+.content-products-swiper{
+  margin-top: 100px;
+  @media (max-width: 575.98px) {
+    margin-top: 30px;
+    .main-content-swiper .swiper-button-next:after{
+      padding: 10px;
+      font-size: 10px;
+    }
+  }
+
+    %share_btn{
+    position: fixed;
+
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    align-items: center;
+
+    justify-content: center;
+    padding: 2px;
+    gap: 5px;
+  }
+  .btn-fixed-sitting{
+    @extend %share_btn;
+    top: 44%;
+    transition:1s ease-in-out;
+    background: none;
+    width: 50px;
+    &:hover{
+      transform: rotate(140deg);
+      color: red;
+      background: none;
+      width: 100px;
+    }
+  }
+  .btn-fixed{
+    @extend %share_btn;
+    top: 50%;
+    button{
+      transition: 1s ease-in-out;
+      width: 60px;
+      &:hover{
+        background: red;
+        width: 200px;
+
+      }
+    }
+
+  }
+
+  .font-size{
+    font-size: 50px;
+  }
+}

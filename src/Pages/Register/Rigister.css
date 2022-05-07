@@ -1,0 +1,54 @@
+.main-app-register {
+  background: #f1f1f1;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+.app-register {
+  margin: 10% 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  padding: 20px;
+  box-shadow: 4px 7px 25px #000000;
+}
+.app-register .content-img {
+  width: 100%;
+}
+.app-register .content-img .bk-image {
+  width: 100%;
+  background: #1659d1;
+  height: 600px;
+  position: relative;
+}
+.app-register .content-img .bk-image:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  border-top: 13px #1659d1 solid;
+  border-right: 13px solid #1659d1;
+  border-bottom: transparent 1px solid;
+  border-left: transparent 1px solid;
+  height: 20px;
+  right: -6px;
+  transform: rotate(52deg);
+  top: 40%;
+}
+.app-register .content-register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.pt {
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Rigister.css.map */

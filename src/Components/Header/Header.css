@@ -1,0 +1,13 @@
+.pointer {
+  cursor: pointer;
+}
+
+.content-badge {
+  top: 15px !important;
+  background: #cd232e;
+  z-index: 1 !important;
+  left: 18px !important;
+  position: absolute !important;
+}
+
+/*# sourceMappingURL=Header.css.map */

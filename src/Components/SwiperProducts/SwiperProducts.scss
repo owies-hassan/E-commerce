@@ -1,0 +1,48 @@
+
+.main-content-swiper{
+  margin-top: 30px;
+  text-align: center;
+  @media (max-width: 575.98px) {
+    margin-top: 5px;
+
+  }
+  .swiper-wrapper{
+    margin: 50px 0;
+    img{
+      width: 200px;
+      height: 200px;
+    }
+    @media (max-width: 575.98px) {
+      img{
+        width: 100%;
+        height: 150px;
+      }
+    }
+  }
+
+  %btn {
+    background: rgba(21, 61, 138, 0.1);
+    padding: 25px;
+    text-align: center;
+    color: #153d8a;
+    font-size: 20px !important;
+
+    &:hover {
+      background: #cc0b10;
+
+    }
+  }
+
+
+  .swiper-button-next:after {
+    @extend %btn
+
+  }
+
+  .swiper-button-prev:after {
+    @extend %btn
+
+  }
+}
+
+

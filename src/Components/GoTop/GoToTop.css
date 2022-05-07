@@ -1,0 +1,23 @@
+.content-Top {
+  background: red;
+  padding: 20px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-size: 19px;
+  line-height: 35px;
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+  right: -20px;
+  margin: 0 20px 20px 0;
+  box-shadow: 4px 5px 11px #504747;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  transform: scale3d(0.7, 0.7, 0.7);
+}
+.content-Top:hover {
+  transform: scale3d(1, 1, 1);
+}
+
+/*# sourceMappingURL=GoToTop.css.map */

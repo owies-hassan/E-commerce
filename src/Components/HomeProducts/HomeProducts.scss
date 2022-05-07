@@ -1,0 +1,33 @@
+@import "../../vars";
+
+
+
+.home-products{
+  .center{
+    text-align: center;
+    color:$text_products_color;
+    font-size: $text_products_size;
+    @media (max-width: 767px) {
+      font-size: 20px;
+    }
+  }
+  img{
+    width: 100%;
+    height: 400px;
+    @media (max-width: 767px) {
+      height: 200px;
+    }
+  }
+  button{
+    padding: 10px;
+    width: 100%;
+  }
+  .btn-products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+}

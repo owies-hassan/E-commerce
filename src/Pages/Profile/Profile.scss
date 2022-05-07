@@ -1,0 +1,37 @@
+.main-profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+//input[type='file'] {
+//  color: rgba(0, 0, 0, 0)
+//}
+
+label.label input[type="file"] {
+  position: absolute;
+  top: -1000px;
+}
+.label {
+  cursor: pointer;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin: 5px;
+  background: #2db84b;
+  display: inline-block;
+  color: white;
+}
+.label:hover {
+  background:#2db84b;
+}
+.label:active {
+  background: #9fa1a0;
+}
+.label:invalid+span {
+  color: #000000;
+}
+.label:valid+span {
+  color: #ffffff;
+}
