@@ -70,6 +70,7 @@ const Header = () => {
         return console.log('error')
     }
     const handleSwitchLogin = (item) => {
+
         if (item === 'login') {
             dispatch(controllerLogin(!controlLogin))
             history('/log')

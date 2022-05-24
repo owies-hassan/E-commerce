@@ -16,7 +16,12 @@ http://owies-store.surge.sh
 
 # feature
 #### 1- you can log in and register
-#### 2-page for details
-#### 3-page for buy
-#### 4-update your information in page profile
+
+#### 2-page home you can filter any category
+#### 3-page  details product
+#### 4-page for buy and count all prices
+#### 5-page also for products but I put all products on swiper
+#### 6-page for register
+#### 7-page for login
+#### 8-page for update your information in page profile
 #### and so more...
