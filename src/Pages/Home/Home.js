@@ -33,7 +33,7 @@ const Home = () => {
 
     if (loading||loadingBtn) {
         return (
-          <div style={{marginTop:'65px'}}>
+          <div className='progress'>
               <LinearDeterminate />
           </div>
         )

@@ -29,7 +29,7 @@ const SwiperProducts=({category,setCategory,name,setLoad,load})=>{
 
     return(
       <Box className='main-content-swiper'>
-          {load&&load?<CircularProgress  size='100px' />:<Box>
+          {load&&load?<div style={{marginTop:'100px'}}><CircularProgress   size='100px' /></div>:<Box>
               {category&&
               <Container >
                   <Swiper
