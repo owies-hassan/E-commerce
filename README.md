@@ -1,6 +1,6 @@
 # Demo
 
-http://owies-store.surge.sh
+http://e-commerce-owies.surge.sh/
 
 ## library used :
 
